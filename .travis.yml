@@ -3,5 +3,5 @@ node_js:
   - 4.2
   - 0.10
   script:
-    - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
-    - codecov
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
+  - codecov
